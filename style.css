@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    position: absolute;
+    float: left;
+    background-image: url(./sanya.jpg);
+    width: 40vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    position: relative;
+    top: 10vh;
+    transform: scale(0.1);
+    opacity: 0.6;
+}
+
+.content {
+    background-color:#3F79BF;
+    float: right;
+    width: 60vw;
+    height: 100vh;
+    color: white;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+fieldset {
+    background-color: #3FA1BF;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+form {
+    width: 20%;
+}
+label {
+    display: inline;
+    margin-bottom: 10px;
+}
+button {
+    font-size: 30px;
+    margin: 20px;
+    color: #3FA1BF;
+}
+
+.heading {
+    margin: 20px;
+    font-size: 30px;
+}
+.account {
+    margin: 20px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #3F54BF;
+    cursor: pointer;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #483FBF;
+}
