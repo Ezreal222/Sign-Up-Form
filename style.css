@@ -39,14 +39,15 @@ fieldset {
     flex-direction: row;
     margin: 20px;
 }
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
+
 form {
-    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 20px;
+    padding: 10px;
 }
+
 label {
     display: inline;
     margin-bottom: 10px;
