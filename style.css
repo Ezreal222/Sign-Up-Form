@@ -6,12 +6,13 @@ html, body {
 .image {
     position: absolute;
     float: left;
-    background-image: url(./sanya.jpg);
-    width: 40vw;
+    background-image: url(./li-yang-wW4vj7bLFHw-unsplash.jpg);
+    width: 100vw;
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    z-index: -1;
 }
 
 .logo {
@@ -22,6 +23,7 @@ html, body {
 }
 
 .content {
+    opacity: 0.9;
     background-color:#3F79BF;
     float: right;
     width: 60vw;
